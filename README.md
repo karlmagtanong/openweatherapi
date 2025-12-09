@@ -23,7 +23,7 @@ Returns:
 - timestamp
 - source = external
 
-### GET /api/weather/{city}/cached
+### GET /weather/{city}/cached
 Fetch weather but cache result for 10 minutes.
 If served from cache:
 - source = cache
